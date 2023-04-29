@@ -1,0 +1,87 @@
+/* General Styles */
+* {
+box-sizing: border-box;
+font-family:Arial,sans-serif;
+}
+.adminMainPanel {
+padding: 20px;
+margin-top:100px;
+}
+.adminSection{
+max-width:500px;
+margin:0 auto;
+}
+.adminSection h2 {
+margin-top: 0;
+}
+
+/* Form Styles */
+.adminSection form {
+display: flex;
+flex-direction: column;
+}
+
+.adminSection form label {
+margin-top: 10px;
+}
+
+.adminSection form input[type="text"],
+.adminSection form input[type="number"],
+.adminSection form textarea {
+padding: 5px;
+border-radius: 5px;
+border: 1px solid #ccc;
+margin-bottom: 10px;
+outline:none;
+transition:0.3s;
+}
+.adminSection form input:focus {
+	border-color:#1e88e5;
+}
+
+.adminSection form input[type="file"] {
+margin-bottom: 20px;
+outline:none;
+}
+
+.adminSection form input[type="submit"]:not(.navLink) {
+background-color: #333;
+color: #fff;
+padding: 10px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+width:150px;
+margin: 0 auto;
+margin-bottom:15px;
+outline:none;
+}
+
+.adminSection form input[type="submit"]:hover {
+background-color: #0062cc;
+}
+
+#manage-orders {
+	width:100%;
+	max-width:650px;
+}
+/* Table Styles */
+table {
+border-collapse:collapse;
+}
+
+thead {
+background-color: #333;
+color: #fff;
+}
+
+th,
+td {
+padding: 10px;
+text-align: left;
+border: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+background-color: #f2f2f2;
+}

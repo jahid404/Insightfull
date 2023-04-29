@@ -1,0 +1,31 @@
+/* Style the category-products section */
+.add-to-cart-btn{
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left:8px;
+  outline:none;
+  font-size:0.75rem;
+  transition:all 0.3s;
+}
+
+.add-to-cart-btn:hover{
+	background-color:#0062cc;
+}
+#category-products,#random-products,#all-products {
+  padding:20px;
+  width:90%;
+  max-width:1000px;
+  margin:0 auto;
+  margin-top:80px;
+}
+
+@media screen and (min-width:768px){
+  #category-products {
+  	padding:40px;
+  }
+}

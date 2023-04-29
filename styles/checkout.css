@@ -1,0 +1,70 @@
+#checkout{
+width:90%;
+max-width:500px;
+margin:0 auto;
+margin-top:100px;
+border:0.5px solid #ddd;
+border-radius:7px;
+box-shadow:0 0px 4px 0px rgba(70,70,70,0.3);
+padding:1.4rem;
+}
+#checkout h2 {
+margin-top: 0;
+}
+
+/* Form Styles */
+#checkout form {
+display: flex;
+flex-direction: column;
+}
+
+#checkout form label {
+margin-top: 10px;
+}
+
+#checkout form input[type="email"],
+#checkout form input[type="text"],
+#checkout form input[type="number"],
+#checkout form textarea {
+padding: 5px;
+border-radius: 5px;
+border: 1px solid #eee;
+margin-bottom: 10px;
+outline:none;
+transition:0.3s;
+width:100%;
+}
+#checkout form input:focus {
+	border-color:#1e88e5;
+}
+
+#checkout form input[type="submit"]{
+background-color: #333;
+color: #fff;
+padding: 10px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+width:150px;
+margin: 0 auto;
+margin-top:15px;
+outline:none;
+}
+
+#checkout form input[type="submit"]:hover {
+background-color: #0062cc;
+}
+
+.payment {
+	margin-top:1.5rem;
+	padding-top:1rem;
+}
+
+.payment-info {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.exp-date,.cvv {
+	width:45%;
+}
