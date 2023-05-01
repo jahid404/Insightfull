@@ -14,8 +14,6 @@ if (isset($_SESSION['email']) && isset($_POST["signout"])){
     <title>Insightful | Home</title>
     <link rel="stylesheet" href="styles/main.css">
     <meta name="viewport" content="width=device-width,initial-scale=1" >
-	<!--auto redirecting to main page-->
-    <script>window.location.href="http://cupidconnect.epizy.com";</script>
   </head>
   <body>
 	<?php include 'header.php';?>
